@@ -1,0 +1,134 @@
+@media (max-width: 1400px) {
+   .header__nav-content {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 25px;
+   }
+   
+   .main__content-top {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+   }
+}
+
+@media (max-width: 1200px) {
+   .main__content-center {
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+   .news__block {
+      width: 50%;
+   }
+}
+
+@media (max-width:993px) {
+   .header__nav-title {
+      text-align: center;
+   }
+   
+   .main__top-right {
+      width: 100%;
+      padding: 73px 0 47px 0;
+   }
+   .main__content-top {
+      display: block;
+   }
+   
+   .main__top-left-top {
+      width: 100%;
+   }
+   
+   .main__top-left-bottom {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   
+   .main__content-center {
+      grid-template-columns: repeat(1,1fr);
+   }
+   
+   .footer__content {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 40px;
+   }
+   
+   .footer__links {
+      margin-right: 0;
+      text-align: center;
+   }
+   
+   .footer__icon {
+      justify-content: center;
+   }
+   
+   .footer__contact {
+      text-align: center;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 768px) {
+   .header__nav-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 10px;
+   }
+   .header__nav-title {
+      margin-right: 0;
+      text-align: center;
+   }
+   
+   .main__top-right {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+   }
+   
+   .footer__links {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 35px;
+   }
+   
+   .first {
+      background-position-x: -100px;
+   }
+   
+   .second {
+      background-position-x: -100px;
+   }
+   .news__title {
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 20px;
+   }
+   
+   .news__text {
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 40px;
+   }
+      
+}
+
+@media (max-width: 480px) {
+   
+   .main__top-left-top {
+      margin-left: 0;   
+   }
+   
+   .main__top-left-bottom {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      row-gap: 15px;
+      margin-left: 0;
+   }
+   
+   .first {
+      background-position-x: -200px;
+   }
+   
+}
